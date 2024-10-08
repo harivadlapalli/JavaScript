@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <p> javascript Variabes</p>
+        <p>Here Declaring The variables</p>
+        <p>Thease are X,Y and Z are declaared and they are automatically decided</p>
+        <h1 id = "demo"></h1>
+        <h1> What can javascript  Do ?</h1>
+        <p id = "d">javascript can Change Html Content</p>
+        <button type="button" onclick="changeHtml()">Click On Me</button>
+
+        <script>
+            X = 5;
+            Y = 6;
+            Z = X+Y;
+            document.getElementById('demo').innerHTML = "Sum of X and Y is:"+Z;
+            function changeHtml(){
+                document.getElementById('d').innerHTML = 'Hello JavaScript!'
+            }
+        </script>
+    </body>
+</html>

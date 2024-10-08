@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <h1>By Using JS we Can validate the inputs Also</h1>
+        <p id = "d1">Please Enter number between 1 to 10</p>
+        <input id = "numb" type="number" placeholder="Enter a Number">
+        <script>
+            function validateFunction(){
+                 var x,text;
+                 x = document.getElementById('numb').value;
+                 if(isNaN(x) || x < 1 || x > 10 ){
+                        text = "Input Not Valid";
+                    }else{
+                        text = "Input Is Valid";
+                    }
+                    document.getElementById('d1').innerHTML = text;
+            }
+        </script>
+        <button type = "button" onclick="validateFunction()">Submit</button>
+    </body>
+</html>
