@@ -15,7 +15,7 @@ For example, [10, 4, 6] would be sorted as [10, 4, 6] (because 10 comes before 4
 Sorted Array:10,4,5,6 */
 let uniqueArr1 = arr.filter((item,index) => arr.indexOf(item) === index);
 console.log("Filtred array:"+uniqueArr1);
-let sortedArray = arr.sort((a, b) => a - b);;
+let sortedArray = arr.sort((a, b) => a - b);
 console.log("Sorted Array:"+sortedArray);
 let arr1 = [10, 5, 6, 4, 6, 10];
 
